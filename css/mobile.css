@@ -34,11 +34,6 @@
         text-align: center;
     }
 
-    .menu-link:hover {
-        /*border-top:none;
-        border-bottom: 3px solid #0065FC;*/
-    }
-
     .main-container {
         padding: 0;
     }
@@ -142,6 +137,10 @@
 
     .activities-card img {
         height: 140px;
+    }
+
+    .footer {
+        width: 100%;
     }
 
     .footer-content {
