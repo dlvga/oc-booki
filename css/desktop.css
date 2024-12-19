@@ -15,13 +15,13 @@ body {
     margin-top: 0;
 }
 
-.header, .main-container, .form-container, .filter, .activities {
+.header-main, .main-container, .form-container, .filter, .activities {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
 }
 
-.header {
+.header-main {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
@@ -262,7 +262,6 @@ i {
     font-size: 14px;
 }
 
-
 .euro-currency{
     font-weight: bold;
 }
@@ -396,10 +395,6 @@ i {
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 0;
-}
-
-.footer-section > h2 {
-    margin: 0;
 }
 
 .footer-link {
