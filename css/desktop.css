@@ -15,7 +15,7 @@ body {
     margin-top: 0;
 }
 
-.header, .main-container {
+.header, .main-container, .form-container, .filter, .activities {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
@@ -159,8 +159,8 @@ body {
     font-size: 16px;
     background-color: white;
     border: 1px solid #ccc;
-    border-radius: 20px;
-    white-space: nowrap;
+    border-radius: 25px;
+    height: 50px;
 }
 
 .filter-button i {
@@ -182,7 +182,11 @@ i {
     background-color: #DEEBFF;
 }
 
-.lodging-number i {
+.lodging-available {
+    margin: 0;
+}
+
+.lodging-available i {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -230,8 +234,6 @@ i {
 }
 
 .lodging-card {
-    display: flex;
-    flex-direction: column;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
     flex-basis: 30%;
     height: 250px;
@@ -246,7 +248,6 @@ i {
     flex-direction: column;
     justify-content: space-between;
     padding: 0 15px 0 15px;
-    /*width: 67%;*/
 }
 
 .lodging-card-title, .popular-card-title {
@@ -268,7 +269,6 @@ i {
 
 .card-rating {
     display: flex;
-    /*margin-left: 10px;*/
     height: 20px;
 }
 
@@ -299,6 +299,11 @@ i {
     padding: 10px;
     width:  95%;
     align-items: center;
+    gap: 20px;
+}
+
+.popular-cards-container article {
+    width: 100%;
 }
 
 .card-link {
@@ -334,6 +339,10 @@ i {
 .find-lodging-title, .activities-town-title, .lodging-town-title, .most-popular {
     font-weight: bold;
     font-size: 22px;
+}
+
+.activities {
+    margin-top: 20px;
 }
 
 .activities-card-container {

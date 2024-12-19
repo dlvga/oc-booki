@@ -38,7 +38,7 @@
         padding: 0;
     }
 
-    .form-container, .filter-title, .filter, .lodging-number, .activities {
+    .form-container, .filter, .lodging-available, .activities {
         padding: 0 20px 0 20px;
     }
 
