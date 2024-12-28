@@ -1,9 +1,10 @@
-@media only screen and (min-width:320px ) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
 
     body {
         margin-left: 0;
         margin-right: 0;
+        min-width: 320px;
     }
 
     .header-main {
@@ -93,18 +94,24 @@
 
     .lodging-details {
         width: 100%;
-        padding: 0 20px 0 20px;
+        padding: 0 30px;
         border-radius: 0;
         background-color: white;
     }
 
     .lodging-cards {
-        flex-direction: column;
+        /*flex-direction: column;*/
     }
 
     .lodging-card {
         flex-basis: auto;
         height: 200px;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .lodging-expand {
+        margin-top: 10px;
     }
 
     .popular-details {
@@ -116,6 +123,7 @@
         width: 100%;
         flex-direction: column;
         justify-content: space-between;
+        gap: 15px;
     }
 
     .popular-card {
@@ -128,7 +136,7 @@
 
     .activities-card-container {
         flex-direction: column;
-        gap: 30px;
+        gap: 15px;
     }
 
     .activities-card {
@@ -141,6 +149,7 @@
 
     .footer {
         width: 100%;
+        padding: 0 30px;
     }
 
     .footer-content {
@@ -150,5 +159,4 @@
     .footer-section {
         width: 50%;
     }
-
 }
